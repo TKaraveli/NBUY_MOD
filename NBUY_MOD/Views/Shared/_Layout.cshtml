@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8"/>
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="~/Content/lib/bootstrapv4/css/bootstrap.min.css"/>
+
+    @RenderSection("customStyles",false)
+    
+</head>
+<body class="container-fluid">
+    @Html.Partial("_Navbar")
+
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+
+    @Html.Partial("_Footer")
+
+    <script src="~/Content/lib/jqeury/jquery-3.3.1.js"></script>
+    <script src="~/Content/lib/bootstrapv4/js/bootstrap.js"></script>
+
+    @RenderSection("customStyles", false)
+</body>
+</html>

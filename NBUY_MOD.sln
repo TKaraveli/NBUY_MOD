@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUY_MOD", "NBUY_MOD\NBUY_MOD.csproj", "{D596650B-F5B7-4D12-9B54-71251818E3E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUY_MOD.Entities", "NBUY_MOD.Entities\NBUY_MOD.Entities.csproj", "{2E12461C-C2AF-46CE-B374-16098C591799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUY_MOD.DAL", "NBUY_MOD.DAL\NBUY_MOD.DAL.csproj", "{4C6363B4-F085-4B3B-A4C1-AD2A1A0EFB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D596650B-F5B7-4D12-9B54-71251818E3E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D596650B-F5B7-4D12-9B54-71251818E3E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D596650B-F5B7-4D12-9B54-71251818E3E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E12461C-C2AF-46CE-B374-16098C591799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E12461C-C2AF-46CE-B374-16098C591799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E12461C-C2AF-46CE-B374-16098C591799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E12461C-C2AF-46CE-B374-16098C591799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6363B4-F085-4B3B-A4C1-AD2A1A0EFB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6363B4-F085-4B3B-A4C1-AD2A1A0EFB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6363B4-F085-4B3B-A4C1-AD2A1A0EFB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6363B4-F085-4B3B-A4C1-AD2A1A0EFB0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
